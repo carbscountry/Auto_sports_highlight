@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "auto-highligh-svm"
+version = "0.1.0"
+description = ""
+authors = ["maskai"]
+readme = "README.md"
+packages = [{include = "auto_highligh_svm"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+polars = "^0.17.2"
+scikit-learn = "^1.2.1"
+pandas = "^2.0.0"
+numpy = "^1.24.2"
+pillow = "^9.5.0"
+ipykernel = "^6.22.0"
+jupyterlab = "^3.6.3"
+nbdime = "^3.1.1"
+yt-dlp = "^2023.3.4"
+opencv-python = "^4.7.0.72"
+tqdm = "^4.65.0"
+ipywidgets = "^8.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
